@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
   "type": "array",
-    "items": {
+  "items": {
     "type": "object",
     "required": [
       "id",
@@ -24,7 +24,7 @@
         "pattern": "^•• \\d{4}$"
       },
       "balance": {
-        "type": "integer",
+        "type": "integer"
       },
       "currency": {
         "type": "string",
